@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-const atividadesMes = parseInt(prompt('digite a quantidade de horas de atividade fisica por mes: '))
+const atividadesMes = parseInt(prompt('Digite a quantidade de horas de atividade fisica por mes: '))
 
 if (atividadesMes <= 10) {
     const pontos = 2 * atividadesMes
