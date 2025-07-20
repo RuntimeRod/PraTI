@@ -53,6 +53,11 @@ section p {
    font-size: 1.3rem;
 }
 
+section a {
+    text-decoration: none;
+    color: rgb(30, 0, 255);
+}
+
 @media (max-width: 897px) {
    main {
       width: 90%;
@@ -81,9 +86,11 @@ section p {
     text-align: center;
     width: 100%;
    }
+
    section ul {
     list-style:none ;
    }
+
    section h1 {
       font-size: 1.5rem;
    }
@@ -91,6 +98,7 @@ section p {
    section p {
       font-size: 1rem;
    }
+
 }
 
 @media (max-width: 480px) {
